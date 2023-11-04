@@ -12,7 +12,7 @@ const args = [
 ];
 const result = spawnSync('node-gyp', args, {
   cwd: 'lib/protocol/crypto',
-  encoding: 'utf9',
+  encoding: 'utf8',
   shell: true,
   stdio: 'inherit',
   windowsHide: true,
